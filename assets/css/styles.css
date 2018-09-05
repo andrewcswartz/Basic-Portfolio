@@ -1,0 +1,64 @@
+/* For some reason I am having a really hard time getting any of my css designs to apply to the html */
+
+.topnav{
+    display: block;
+    font-size: 18px;
+/* I cant get the font color to change colors, not sure why */
+    font-display: White;
+    background-color: gray;
+    margin: auto;
+    padding: 1%;
+    width: 10%;
+    border-style: solid;
+    border-color: orange;
+}
+
+.topnav2{
+    position: static;
+    display: inline;
+     
+}
+
+
+.h1{
+font-size: 50px;
+text-align: center;
+font-display: Orange;
+
+}
+.Header {
+    font-size: 40px;
+    text-align: center;
+    background-color: darkorange;
+
+}
+
+P{
+    font-display: Yellow;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid orange;
+    padding: 12px
+}
+
+.footer {
+background-color: gray;
+text-align: center;
+color: rgb(255, 255, 255);
+/* right: 0;
+bottom: 0;
+left: 0;
+top: 0; */
+padding: 12px;
+width: 60%;
+margin: auto;
+border-top: 50px greenyellow;
+}
+
+.container{
+    background-color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
