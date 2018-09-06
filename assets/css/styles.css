@@ -1,28 +1,34 @@
 /* For some reason I am having a really hard time getting any of my css designs to apply to the html */
-head{
-    background-color: gray;
-}
+
 body{
     background-color: gray;
+    background-blend-mode: color-burn;
 }
 .topnav{
     display: block;
     font-size: 18px;
 /* I cant get the font color to change colors, not sure why */
-    font-display: White;
+    color: White;
     background-color: white;
-    margin: auto;
+    margin-left: 15%;
     padding: 1%;
+    height: 5%;
     width: 10%;
     border-style: solid;
     border-color: orange;
 }
 
 .topnav2{
+    border: 3px;
+    border-style: solid;
+    border-color:orange;
+    background-color: white;
     position: static;
     display: inline;
-     
-}
+    /* float: right; */
+     margin-left: 70%;
+    
+    }
 
 
 .h1{
@@ -38,29 +44,34 @@ font-display: Orange;
 
 }
 
+.Head{
+    background-color: white
+}
+
 P{
     font-display: Yellow;
 }
 .center {
     margin: auto;
-    width: 60%;
+    width: 80%;
     border: 3px solid orange;
     padding: 12px;
     background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
 .footer {
-background-color: gray;
+background-color: orange;
 text-align: center;
-color: rgb(255, 255, 255);
 /* right: 0;
 bottom: 0;
 left: 0;
 top: 0; */
 padding: 12px;
-width: 60%;
+width: 80%;
 margin: auto;
-border-top: 50px greenyellow;
+border: 3px solid white;
 }
 
 .container{
